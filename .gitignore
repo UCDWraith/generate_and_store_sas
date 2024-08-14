@@ -35,3 +35,6 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+# Ignore generated .enc files - these contain the encyrpted SAS key and should not be uploaded
+*.enc

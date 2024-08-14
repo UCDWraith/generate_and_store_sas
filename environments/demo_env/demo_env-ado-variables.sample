@@ -1,0 +1,6 @@
+storage_account_name = "mystorageaccountname"       # Update as appropriate
+resource_group_name  = "my-resource-group"          # Update as appropriate
+location             = "australiaeast"              # Update as appropriate
+container_name       = "tfstate"                    # Update to the name of your container
+key_vault_name       = "my-azure-keyvault"          # Update with a valid Key vault name
+use_modern           = true                         # Set to true if the generated SAS 'sv' via native Terraform is not compatible.
